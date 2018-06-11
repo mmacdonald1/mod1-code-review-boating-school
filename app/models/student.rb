@@ -26,4 +26,8 @@ def add_boating_test(name, status, instructor)
   BoatingTest.new(self, name, status, instructor)
 end
 
+def self.find_student(student_input)
+  self.all.find{|student| student.full_name == student_input}
+end
+
 end

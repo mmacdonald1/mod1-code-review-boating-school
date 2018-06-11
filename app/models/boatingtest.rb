@@ -8,7 +8,7 @@ def initialize(student, name, status, instructor)
   @student = student
   @name = name
   @status = status
-  @instructorc = instructor
+  @instructor = instructor
   @@all << self
 end
 
