@@ -22,8 +22,8 @@ def self.full_names
   self.all.map{|name| name.full_name}
 end
 
-def add_boating_test
-
+def add_boating_test(name, status, instructor)
+  BoatingTest.new(self, name, status, instructor)
 end
 
 end

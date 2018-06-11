@@ -12,4 +12,8 @@ def initialize(student, name, status, instructor)
   @@all << self
 end
 
+def self.all
+  @@all
+end
+
 end
