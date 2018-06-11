@@ -14,5 +14,16 @@ def self.all
   @@all
 end
 
+def full_name
+  "#{first_name} #{last_name}"
+end
+
+def self.full_names
+  self.all.map{|name| name.full_name}
+end
+
+def add_boating_test
+
+end
 
 end
