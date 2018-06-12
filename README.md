@@ -35,7 +35,7 @@ Associations:
 `Instructor` class:
 * init with name
 * `Instructor.all` should return all instructors
-* `Student.fail_student` should take in a student name and test name and should return status failed
+* `Instructor.fail_student` should take in a student name and test name and should return status failed
 
 
 Run `ruby tools/console.rb` in console to seed
